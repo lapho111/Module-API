@@ -1,0 +1,21 @@
+#!name= KaineMaster Premium 
+#!desc= Unlock By Lạp Hộ 
+
+ 
+
+/****************************** 
+📌 Tác Giả：LapHo: Remake   
+📌 Cập Nhật：2025-2-17
+📌 Liên Lạc：Zalo: 0886632736   
+📌 FaceBook: https://www.facebook.com/share/lapho111 
+******************************/ 
+
+ 
+
+ 
+
+[script] 
+KineMaster = type=http-response,script-path= https://raw.githubusercontent.com/lapho111/Shadowrocket/refs/heads/main/KaineMaster.js,pattern=^https:\/\/api-account\.kinemasters\.com\/v2\/user\/subscribe,max-size=131072,requires-body=true,timeout=10,enable=true 
+
+[MITM] 
+hostname = api-account.kinemasters.com 
